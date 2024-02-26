@@ -4,9 +4,8 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBit
 
 // Server informations
 const servers = [
-    { ip: 'CHANGE_IP_SERVER', port: '0', isOnline: false, name: 'Serveur 2' }, //Replace IP & port with the ones you want to check
-    { ip: 'CHANGE_IP_SERVER', port: '0', isOnline: false, name: 'Server 1' }   //Replace IP & port with the ones you want to check
-];
+    { ip: 'CHANGE_IP_SERVER', port: '0', isOnline: false, name: 'Server 2' }, //Replace IP & port with the ones you want to check
+    ];
 
 // Follows last messages
 const lastNotificationMessages = {};
