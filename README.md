@@ -1,26 +1,23 @@
-It is a simple discord bot that you have to host on your pc or using a VPS.
+It's a simple Discord bot that you need to host on your PC or use a VPS for.
 
-First you will need to create a bot on the discord developper portal https://discord.com/developers/
+First, you will need to create a bot on the Discord developer portal: https://discord.com/developers/
 
-Next, create your bot, and save your token.
+Next, create your bot and save your token.
 
-Now, in the "Bot" section, enable the three Intent under "Privileged Gateway Intents"
+Now, in the "Bot" section, enable the three intents under "Privileged Gateway Intents".
 
-In the "OAuth2" section, select custom URL for "Default Authorization Link" and check "bot" under scopes. Now under bot permissions, check send messages, manage messages, read messages/view channel.
+In the "OAuth2" section, select "Custom URL" for "Default Authorization Link" and check "bot" under scopes. Then, under bot permissions, check "send messages", "manage messages", and "read messages/view channel".
 
-Copy the link it generated to invite the bot on your server.
+Copy the link it generates to invite the bot to your server.
 
 -----Be sure that Node.js is installed------
 
-Create a folder dedicated for your bot
+Create a folder dedicated to your bot.
 
-You can setup the bot by modifying the file with your informations.
+You can set up the bot by modifying the file with your information.
 
-Open a powershell in your folder and run the command 'npm init'
+Open PowerShell in your folder and run the command 'npm init'.
 
-Next, run the command 'npm install discord.js'
+Next, run the command 'npm install discord.js'.
 
-Now to run your bot, run the command 'node beammp.js' Or the name you chose for your .js file.
-
-
-
+Now, to run your bot, run the command 'node beammp.js' or whatever name you chose for your .js file.
