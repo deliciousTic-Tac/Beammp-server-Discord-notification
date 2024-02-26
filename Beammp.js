@@ -63,4 +63,4 @@ async function isBeamMPServerOnline(ip, port) {
     });
 }
 
-client.login('TOKEN_BOT'); //YOUR TOKEN BOT
+client.login('TOKEN_BOT'); //YOUR BOT TOKEN
